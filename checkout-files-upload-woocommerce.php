@@ -3,8 +3,8 @@
 Plugin Name: Checkout Files Upload for WooCommerce
 Plugin URI: https://wpwham.com/products/checkout-files-upload-for-woocommerce/
 Description: Let your customers upload files on (or after) WooCommerce checkout.
-Version: 2.1.1
-Author: WP Wham
+Version: 2.1.2-fork
+Author: WP Wham, Corey Salzano
 Author URI: https://wpwham.com
 Text Domain: checkout-files-upload-woocommerce
 Domain Path: /langs
@@ -72,7 +72,7 @@ final class Alg_WC_Checkout_Files_Upload {
 	 * @var   string
 	 * @since 1.0.0
 	 */
-	public $version = '2.1.1';
+	public $version = '2.1.2-fork';
 
 	/**
 	 * @var   Alg_WC_Checkout_Files_Upload The single instance of the class

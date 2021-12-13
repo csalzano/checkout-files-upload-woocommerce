@@ -3,7 +3,7 @@ Contributors: wpwham
 Tags: woocommerce, checkout files upload, checkout, woo commerce
 Requires at least: 4.4
 Tested up to: 5.8
-Stable tag: 2.1.1
+Stable tag: 2.1.2-fork
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -75,6 +75,9 @@ Optionally **validate image dimensions**.
 3. Start by visiting plugin settings at "WooCommerce > Settings > Checkout Files Upload".
 
 == Changelog ==
+
+= 2.1.2-fork - 2021-12-13 =
+* FIX: fixes bugs in the JavaScript file that attach event handlers to the upload button controls. This version is a fork that lives at https://github.com/csalzano/checkout-files-upload-woocommerce
 
 = 2.1.1 - 2021-09-16 =
 * UPDATE: PHP 8 now officially supported.
