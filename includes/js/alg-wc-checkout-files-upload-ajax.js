@@ -176,12 +176,12 @@
 	
 		$container = jQuery( 'form.woocommerce-checkout' ).closest( 'div' );
 		
-		$( document ).on( 'click', '.alg_checkout_files_upload_button', function() {
+		$('.alg_checkout_files_upload_button').on( 'click', function() {
 			var fileUploader = $( this ).data( 'file-uploader' );
 			$( '#alg_checkout_files_upload_' + fileUploader ).click();
 		});
 		
-		$( document ).on( 'change', '.alg_checkout_files_upload_file_input', function() {
+		$('.alg_checkout_files_upload_file_input').on( 'change', function() {
 			var files = $( this )[0].files;
 			var fileUploader = $( this ).data( 'file-uploader' );
 			if ( ! files.length ) {
@@ -201,7 +201,7 @@
 			$( this ).val('');
 		});
 		
-		$( document ).on( 'click', '.alg_checkout_files_upload_result_delete', function( event ) {
+		$('.alg_checkout_files_upload_result_delete').on( 'click', function( event ) {
 			event.preventDefault();
 			blockCheckout();
 			var $fileContainer = $( this ).closest( 'div' );
